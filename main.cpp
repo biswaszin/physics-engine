@@ -10,7 +10,7 @@ struct Vector{
 
 // to add any two vector
 Vector add(Vector a, Vector b){ 
-    return { a.x + b.x, a.y + b.y};
+    return {a.x + b.x, a.y + b.y};
 }
 
 // to subtract the vector
@@ -116,7 +116,6 @@ float SetDuration(){
 // ------------------------- MAIN ----------------------------
 int main(){
     
-    // Particle ball{5.0f, {3,2}, {4,5}, {5,6}}; // m, v, p, a, f
     
     Body ball{};
     ball.setMass();
